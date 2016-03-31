@@ -9,7 +9,7 @@ module.exports = { //Export these modules for node
   output: { //Output the module
     path: path.join(__dirname, './public/js/'), //Output it to this filename
     filename: `app.js`, //The name of the module
-    publicPath: '/js/' //the public path to the module
+    publicPath: 'js/' //the public path to the module
   },
   plugins: [ //THe plugins 
     new webpack.DefinePlugin({ //Pack up the plugin 

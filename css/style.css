@@ -23,3 +23,6 @@ html, body {
 .collapsible.popout li {
 	margin: 0px;
 }
+.collapsible-body p {
+	padding: 5px 10px;
+}

@@ -24,7 +24,7 @@ html, body {
 	margin: 0px;
 }
 .collapsible-body p {
-	padding: 5px 10px;
+	padding: 5px 5px;
 }
 #overlay {
 	background-color: rgba(140, 140, 140, 0.5);

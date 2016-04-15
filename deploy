@@ -1,4 +1,5 @@
 #!/bin/bash
 npm run-script build-app
+git commit -am "Deploy"
 git subtree push --prefix public origin gh-pages
 git subtree push --prefix public matt gh-pages

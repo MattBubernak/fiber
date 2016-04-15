@@ -26,3 +26,11 @@ html, body {
 .collapsible-body p {
 	padding: 5px 10px;
 }
+#overlay {
+	background-color: rgba(140, 140, 140, 0.5);
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 10.8833px;
+}

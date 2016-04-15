@@ -1,3 +1,4 @@
 #!/bin/bash
-
+npm run-script build-app
 git subtree push --prefix public origin gh-pages
+git subtree push --prefix public matt gh-pages

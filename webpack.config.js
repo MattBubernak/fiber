@@ -68,6 +68,12 @@ module.exports = {
       include: [path.join(__dirname,'./lib')] // directory we want to include. 
     },
     {
+        test: /\.(jpg|jpeg|gif|png)$/,
+        exclude: /node_modules/, // excludes exceptions
+        loader:'url-loader?limit=1024&name=images/[name].[ext]',
+        include: __dirname// directory we want to include. 
+    },
+    {
       test: /\.xml$/, // regex for xml
       loader: "raw" // use raw loader
     },

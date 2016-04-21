@@ -38,3 +38,10 @@ html, body {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+.parallax-container {
+	height: 350px;
+}
+#instructions {
+	margin-left: 20px;
+	padding-bottom: 20px;
+}

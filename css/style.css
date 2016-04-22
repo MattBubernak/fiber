@@ -45,3 +45,7 @@ html, body {
 	margin-left: 20px;
 	padding-bottom: 20px;
 }
+#tableContainer {
+	max-height: 800px;
+	overflow-y: auto;
+}

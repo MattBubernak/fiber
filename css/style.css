@@ -24,15 +24,17 @@ html, body {
 	margin: 0px;
 }
 .collapsible-body p {
-	padding: 5px 5px;
+	padding: 5px 20px;
+}
+.collapsible-header {
+	margin: 0px;
 }
 #overlay {
-	background-color: rgba(140, 140, 140, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	height: 800px;
 	width: 100%;
 	position: absolute;
 	top: 0;
-	left: 10.8833px;
 }
 #tableCalc {
 	margin-top: 2em;
@@ -43,9 +45,31 @@ html, body {
 }
 #instructions {
 	margin-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 16px;
 }
-#tableContainer {
-	max-height: 800px;
+.tableTrans {
+	background: rgb(40, 40, 40); /* Fallback for older browsers without RGBA-support */
+  background: rgba(40, 40, 40, 0.8);
+}
+#tableFibers {
+	padding-right: 1em;
+	padding-left: 1em;
+	max-height: 560px;
 	overflow-y: auto;
+}
+.section {
+	background-image: url("../images/fiber_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.orange-text {
+	padding-left: 1em;
+}
+#app {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+#map {
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
 }

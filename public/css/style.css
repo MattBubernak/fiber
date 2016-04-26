@@ -76,3 +76,6 @@ html, body {
 #hazard-detail {
 	padding-left: 4em;
 }
+.showTwoBody {
+	padding: 5px 10px;
+}
